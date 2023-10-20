@@ -101,7 +101,7 @@ export let categories: Category[] = [
 				name: 'OpenRewrite',
 				link: {
 					name: 'OpenRewrite Website',
-					href: 'https://openrewrite.org'
+					href: 'https://docs.openrewrite.org/'
 				},
 				content: /*html*/ `
                 Tool used to refactor source code.
@@ -198,7 +198,7 @@ export let categories: Category[] = [
 		]
 	},
 	{
-		name: 'Dataset worked on',
+		name: 'Datasets working / worked on',
 		id: 'dataset',
 		items: [
 			{
@@ -208,6 +208,12 @@ export let categories: Category[] = [
                 <br>
                 These images are used to train a YoloV8 model to recognise the entities on the screen.
                 `
+			},
+			{
+				name: 'Season 18 Clash Royale Battle Dataset',
+				content: `
+				I am going to use the Season 18 Clash Royale Battle Dataset from Kaggle to train a model to suggest a deck based on the cards they have chosen.
+				`
 			}
 		]
 	},
