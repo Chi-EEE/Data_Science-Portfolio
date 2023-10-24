@@ -26,7 +26,7 @@ export let categories: Category[] = [
 		items: [
 			{
 				icon_image: {
-					src: 'SETU.png',
+					src: 'icons/other/SETU.png',
 					alt: 'SETU Logo'
 				},
 				name: 'South East Technological University (IT Carlow)',
@@ -60,7 +60,7 @@ export let categories: Category[] = [
 		items: [
 			{
 				icon_image: {
-					src: 'Workday.png',
+					src: 'icons/other/Workday.png',
 					alt: 'Workday Logo'
 				},
 				name: 'Workday Internship',
@@ -79,7 +79,7 @@ export let categories: Category[] = [
 		items: [
 			{
 				icon_image: {
-					src: 'Ultraytics.png',
+					src: 'icons/other/Ultraytics.png',
 					alt: 'Ultraytics Logo'
 				},
 				name: 'YoloV8',
@@ -95,7 +95,7 @@ export let categories: Category[] = [
 			},
 			{
 				icon_image: {
-					src: 'OpenRewrite.png',
+					src: 'icons/other/OpenRewrite.png',
 					alt: 'OpenRewrite Logo'
 				},
 				name: 'OpenRewrite',
@@ -111,7 +111,7 @@ export let categories: Category[] = [
 			},
 			{
 				icon_image: {
-					src: 'RobloxStudio.png',
+					src: 'icons/other/RobloxStudio.png',
 					alt: 'Roblox Studio Logo'
 				},
 				name: 'Roblox-Neural-Network-Library',
@@ -127,7 +127,7 @@ export let categories: Category[] = [
 			},
 			{
 				icon_image: {
-					src: 'Xmake.png',
+					src: 'icons/other/Xmake.png',
 					alt: 'Xmake Logo'
 				},
 				name: 'XMake',
@@ -143,7 +143,7 @@ export let categories: Category[] = [
 			},
 			{
 				icon_image: {
-					src: 'Svelte.png',
+					src: 'icons/other/Svelte.png',
 					alt: 'Svelte Logo'
 				},
 				name: 'Svelte',
@@ -173,7 +173,7 @@ export let categories: Category[] = [
 			},
 			{
 				icon_image: {
-					src: 'ClashRoyale.png',
+					src: 'icons/other/ClashRoyale.png',
 					alt: 'Clash Royale Logo'
 				},
 				name: '<span id="cr">Clash Royale Image Dataset Generator</span>',
@@ -187,13 +187,30 @@ export let categories: Category[] = [
 			},
 			{
 				icon_image: {
-					src: 'RandomCard.png',
+					src: 'icons/other/RandomCard.png',
 					alt: 'Random Deck Icon'
 				},
 				name: 'Clash Royale Deck Suggester',
 				content: `
-                I am planning to use a Clash Royale dataset from Kaggle to train a model to suggest a deck based on the cards they have chosen.
-                `
+				Github Link: <a href='https://github.com/Chi-EEE/Data_Science-Project'>Clash Royale Deck Suggester</a>
+				Dataset Link: <a href='https://www.kaggle.com/datasets/bwandowando/clash-royale-season-18-dec-0320-dataset/'>Clash Royale Season 18 Battles</a>
+				<br>
+				For this project, I am going to use the Season 18 Clash Royale Battle Dataset from Kaggle to train a model to suggest a deck based on the cards they have chosen.
+				<br>
+				<h5>Preprocessing</h5>
+				<p>
+					Before using the dataset, I would have to preprocess the data to make it easier for the model to train on.
+					<br>
+					I removed the columns that I didn't need: Player tag, their ranking and the date of the battle.
+					<br>
+					And there is a column called 'gameMode.id' which I would have to use to filter the rows so that the battles which remain are ranked battles.
+				</p>
+				<h5>Tools And Technologies</h5>
+				<ul>
+					<li>Python</li>
+					<li>Pandas</li>
+				</ul>
+				`
 			}
 		]
 	},
@@ -223,42 +240,42 @@ export let categories: Category[] = [
 		items: [
 			{
 				icon_image: {
-					src: 'CPP.png',
+					src: 'icons/lang/CPP.png',
 					alt: 'C Plus Plus Logo'
 				},
 				name: 'C++'
 			},
 			{
 				icon_image: {
-					src: 'Python.png',
+					src: 'icons/lang/Python.png',
 					alt: 'Python Logo'
 				},
 				name: 'Python'
 			},
 			{
 				icon_image: {
-					src: 'Java.png',
+					src: 'icons/lang/Java.png',
 					alt: 'Java Logo'
 				},
 				name: 'Java'
 			},
 			{
 				icon_image: {
-					src: 'Typescript.png',
+					src: 'icons/lang/Typescript.png',
 					alt: 'Typescript Logo'
 				},
 				name: 'Typescript'
 			},
 			{
 				icon_image: {
-					src: 'Rust.png',
+					src: 'icons/lang/Rust.png',
 					alt: 'Rust Logo'
 				},
 				name: 'Rust'
 			},
 			{
 				icon_image: {
-					src: 'Lua.png',
+					src: 'icons/lang/Lua.png',
 					alt: 'Lua Logo'
 				},
 				name: 'Lua'
