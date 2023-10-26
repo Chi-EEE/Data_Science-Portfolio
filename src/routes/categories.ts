@@ -193,9 +193,10 @@ export let categories: Category[] = [
 				name: 'Clash Royale Deck Suggester',
 				content: `
 				Github Link: <a href='https://github.com/Chi-EEE/Data_Science-Project'>Clash Royale Deck Suggester</a>
+				<br>
 				Dataset Link: <a href='https://www.kaggle.com/datasets/bwandowando/clash-royale-season-18-dec-0320-dataset/'>Clash Royale Season 18 Battles</a>
 				<br>
-				For this project, I am going to use the Season 18 Clash Royale Battle Dataset from Kaggle to train a model to suggest a deck based on the cards they have chosen.
+				For this project, I am going to use the Season 18 Clash Royale battle dataset from Kaggle to train a model to suggest a deck based on the cards they have chosen.
 				<br>
 				<h5>Preprocessing</h5>
 				<p>
@@ -203,7 +204,14 @@ export let categories: Category[] = [
 					<br>
 					I removed the columns that I didn't need: Player tag, their ranking and the date of the battle.
 					<br>
-					And there is a column called 'gameMode.id' which I would have to use to filter the rows so that the battles which remain are ranked battles.
+					After the first step of preprocessing, I reduced the headings from 75 to 36 headings. Here is a bar chart showing the number of cards used in the dataset:
+					<img
+						style="border: 2px solid black;"
+						src="graphs/bar_chart_1.png"
+						alt="First Bar Chart with unfiltered data"
+					/>
+					<br>
+					Since these are ladder matches, I removed the rows with cards that are under level 13 since that is not the max level and will introduce bias since some cards are alot weaker when underleveled.
 				</p>
 				<h5>Tools And Technologies</h5>
 				<ul>
