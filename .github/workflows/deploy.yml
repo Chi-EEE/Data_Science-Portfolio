@@ -4,8 +4,10 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
-  workflow_dispatch:
+    branches: [main]
+
+permissions: 
+  contents: write
 
 jobs:
   build:
@@ -17,9 +19,13 @@ jobs:
         run: |
           npm install
           npm run build
-          
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+      
+      - name: Create Page
+        run: |
+          npm
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: gh-pages
-          folder: public
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
