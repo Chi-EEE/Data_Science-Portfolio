@@ -1,5 +1,5 @@
 <script lang="ts">
-	import PreviewSection from './PreviewSection.svelte';
+	import PreviewSection from '../lib/PreviewSection.svelte';
 	import { categories } from './categories';
 </script>
 
