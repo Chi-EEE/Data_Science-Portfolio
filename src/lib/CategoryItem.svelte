@@ -1,19 +1,8 @@
 <script lang="ts">
-  import SvelteMarkdown from "svelte-markdown";
   import type { Item } from "./categories";
-  import { onMount } from "svelte";
+  import MarkdownSection from "./MarkdownSection.svelte";
 
   export let item: Item;
-
-  let markdown_source = "";
-  const long_description_file = item.long_description_file;
-  if (long_description_file) {
-    onMount(async () => {
-      markdown_source = await fetch(long_description_file).then(
-        (response) => response.text()
-      );
-    });
-  }
 </script>
 
 <li style="margin-top: 5px; margin-bottom: 5px">
@@ -36,7 +25,7 @@
   {#if item.short_description}
     <p>{@html item.short_description}</p>
   {/if}
-  {#if markdown_source.length > 0}
-    <SvelteMarkdown source={markdown_source} />
+  {#if item.markdown_file}
+    <MarkdownSection markdown_file={item.markdown_file} />
   {/if}
 </li>

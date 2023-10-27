@@ -13,7 +13,7 @@ export interface Item {
 	};
 	small_text?: string;
 	short_description?: string;
-	long_description_file?: string;
+	markdown_file?: string;
 }
 export interface Image {
 	src: string;
@@ -199,7 +199,7 @@ export let categories: Category[] = [
 				For this project, I am going to use the Season 18 Clash Royale battle dataset from Kaggle to train a model to suggest a deck based on the cards they have chosen.
 				<br>
 				`,
-				long_description_file: `markdown/clash_royale_deck_suggester.md`,
+				markdown_file: `markdown/clash_royale_deck_suggester.md`,
 			}
 		]
 	},
