@@ -1,5 +1,6 @@
 <script lang="ts">
-  import type { Item } from "./categories";
+  import SvelteMarkdown from "svelte-markdown";
+import type { Item } from "./categories";
   import MarkdownSection from "./MarkdownSection.svelte";
 
   export let item: Item;
@@ -14,7 +15,9 @@
         alt={item.icon_image.alt}
       />
     {/if}
-    {@html item.name}
+    <h5 id={item.id}>
+      {item.name}
+    </h5>
   </h4>
   {#if item.link}
     <a style="padding-top: 10px; margin:auto; display:flex; align-items:center;" href={item.link.href}>
@@ -28,7 +31,7 @@
     <small>{item.small_text}</small>
   {/if}
   {#if item.short_description}
-    <p>{@html item.short_description}</p>
+    <SvelteMarkdown source={item.short_description} />
   {/if}
   {#if item.markdown_file}
     <MarkdownSection markdown_file={item.markdown_file} />
