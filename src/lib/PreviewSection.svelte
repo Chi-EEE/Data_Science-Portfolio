@@ -1,19 +1,13 @@
 <script lang="ts">
-	interface Image {
-		src: string;
-		alt: string;
-	}
-	export let images: Image[];
+	export let preview_section: string;
 	let show = false;
 </script>
 
 <button
 	on:click={() => {
 		show = !show;
-	}}>{show ? "Show:" : "Hide:"}</button
+	}}>{show ? "Hide:" : "Show:"}</button
 >
 {#if show}
-	{#each images as image}
-		<img src={image.src} alt={image.alt} />
-	{/each}
+	{@html preview_section}
 {/if}

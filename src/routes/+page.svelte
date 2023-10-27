@@ -1,6 +1,6 @@
 <script lang="ts">
-	import PreviewSection from '../lib/PreviewSection.svelte';
-	import { categories } from './categories';
+	import Category from '../lib/Category.svelte';
+	import { categories } from '../lib/categories';
 </script>
 
 <svelte:head>
@@ -45,38 +45,7 @@
 </div>
 
 {#each categories as category}
-	<hr />
-	<section id={category.id}>
-		<h3>{category.name}: <a href="#table_of_contents">[back to table of contents]</a></h3>
-		<ul>
-			{#each category.items as item}
-				<li style="margin-top: 5px; margin-bottom: 5px">
-					<h4 style="margin:auto; display:flex; align-items:center;">
-						{#if item.icon_image}
-							<img
-								style="width: 50px; margin-right:10px"
-								src={item.icon_image.src}
-								alt={item.icon_image.alt}
-							/>
-						{/if}
-						{@html item.name}
-					</h4>
-					{#if item.link}
-						<a href={item.link.href}>{item.link.name}</a>
-					{/if}
-					{#if item.small_text}
-						<small>{item.small_text}</small>
-					{/if}
-					{#if item.content}
-						<p>{@html item.content}</p>
-					{/if}
-					{#if item.preview_images}
-						<PreviewSection images={item.preview_images} />
-					{/if}
-				</li>
-			{/each}
-		</ul>
-	</section>
+	<Category {category} />
 {/each}
 <hr />
 <footer>This website was made using <a href="https://svelte.dev/">Svelte</a></footer>
