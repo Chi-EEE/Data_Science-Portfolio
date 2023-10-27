@@ -14,7 +14,7 @@
 <button
   on:click={() => {
     show = !show;
-  }}>{show ? "Hide:" : "Show:"}</button
+  }}>{!show ? "Click here to preview long description:" : "Hide:"}</button
 >
 {#if show}
   <SvelteMarkdown {source} />
