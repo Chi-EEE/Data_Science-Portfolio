@@ -4,21 +4,27 @@ export interface Category {
 	description?: string;
 	items: Item[];
 }
+
 export interface Item {
 	icon_image?: Image;
 	name: string;
-	link?: {
-		name: string;
-		href: string;
-	};
 	small_text?: string;
+	link?: ImageLink;
 	short_description?: string;
 	markdown_file?: string;
 }
+
 export interface Image {
 	src: string;
 	alt: string;
 }
+
+export interface ImageLink {
+	image_src?: string;
+	name: string;
+	href: string;
+}
+
 export let categories: Category[] = [
 	{
 		name: 'Education',
@@ -191,9 +197,12 @@ export let categories: Category[] = [
 					alt: 'Random Deck Icon'
 				},
 				name: 'Clash Royale Deck Suggester',
+				link: {
+					image_src: 'icons/other/Github-Light.png',
+					name: 'Clash Royale Deck Suggester',
+					href: 'https://github.com/Chi-EEE/Data_Science-Project',
+				},
 				short_description: `
-				Github Link: <a href='https://github.com/Chi-EEE/Data_Science-Project'>Clash Royale Deck Suggester</a>
-				<br>
 				Dataset Link: <a href='https://www.kaggle.com/datasets/bwandowando/clash-royale-season-18-dec-0320-dataset/'>Clash Royale Season 18 Battles</a>
 				<br>
 				For this project, I am going to use the Season 18 Clash Royale battle dataset from Kaggle to train a model to suggest a deck based on the cards they have chosen.
@@ -217,8 +226,13 @@ export let categories: Category[] = [
 			},
 			{
 				name: 'Season 18 Clash Royale Battle Dataset',
+				link: {
+					image_src: 'icons/other/Kaggle.png',
+					name: 'Dataset Link',
+					href: 'https://www.kaggle.com/datasets/bwandowando/clash-royale-season-18-dec-0320-dataset/',
+				},
 				short_description: `
-				I am going to use the Season 18 Clash Royale Battle Dataset from Kaggle to train a model to suggest a deck based on the cards they have chosen.
+				I am using the Season 18 Clash Royale Battle Dataset from Kaggle to train a model to suggest a deck based on the cards they have chosen.
 				`,
 			}
 		]

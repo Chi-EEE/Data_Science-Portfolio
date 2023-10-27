@@ -9,7 +9,7 @@
   <h4 style="margin:auto; display:flex; align-items:center;">
     {#if item.icon_image}
       <img
-        style="width: 50px; margin-right:10px"
+        style="width: 50px; margin-right:10px;"
         src={item.icon_image.src}
         alt={item.icon_image.alt}
       />
@@ -17,7 +17,12 @@
     {@html item.name}
   </h4>
   {#if item.link}
-    <a href={item.link.href}>{item.link.name}</a>
+    <a style="padding-top: 10px; margin:auto; display:flex; align-items:center;" href={item.link.href}>
+      {#if item.link.image_src}
+      <img style="height: 30px; margin-right:10px;" src={item.link.image_src} alt="Github Icon for {item.link.name}" />
+      {/if}
+      {item.link.name}
+    </a>
   {/if}
   {#if item.small_text}
     <small>{item.small_text}</small>
