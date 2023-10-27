@@ -15,9 +15,7 @@
         alt={item.icon_image.alt}
       />
     {/if}
-    <h5 id={item.id}>
-      {item.name}
-    </h5>
+    {item.name}
   </h4>
   {#if item.link}
     <a
