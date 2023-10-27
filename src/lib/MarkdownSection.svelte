@@ -5,9 +5,7 @@
   let show = false;
   let source = "";
   onMount(async () => {
-    source = await fetch(markdown_file).then((response) =>
-      response.text()
-    );
+    source = await fetch(markdown_file).then((response) => response.text());
   });
 </script>
 

@@ -1,6 +1,6 @@
 <script lang="ts">
   import SvelteMarkdown from "svelte-markdown";
-import type { Item } from "./categories";
+  import type { Item } from "./categories";
   import MarkdownSection from "./MarkdownSection.svelte";
 
   export let item: Item;
@@ -20,9 +20,16 @@ import type { Item } from "./categories";
     </h5>
   </h4>
   {#if item.link}
-    <a style="padding-top: 10px; margin:auto; display:flex; align-items:center;" href={item.link.href}>
+    <a
+      style="padding-top: 10px; margin:auto; display:flex; align-items:center;"
+      href={item.link.href}
+    >
       {#if item.link.image_src}
-      <img style="height: 30px; margin-right:10px;" src={item.link.image_src} alt="Github Icon for {item.link.name}" />
+        <img
+          style="height: 30px; margin-right:10px;"
+          src={item.link.image_src}
+          alt="Github Icon for {item.link.name}"
+        />
       {/if}
       {item.link.name}
     </a>
