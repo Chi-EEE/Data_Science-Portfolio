@@ -7,7 +7,7 @@
 </script>
 
 <li style="margin-top: 5px; margin-bottom: 5px">
-  <h4 style="margin:auto; display:flex; align-items:center;">
+  <h4 style="margin:auto; display:flex; align-items:center;" id={item.id}>
     {#if item.icon_image}
       <img
         style="width: 50px; margin-right:10px;"
