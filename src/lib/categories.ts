@@ -13,7 +13,7 @@ export interface Item {
 	};
 	small_text?: string;
 	short_description?: string;
-	preview_section?: string;
+	long_description_file?: string;
 }
 export interface Image {
 	src: string;
@@ -50,7 +50,7 @@ export let categories: Category[] = [
                         GPA of 1.1 (82.4%) in the 3rd year
                     </li>
                 <ul>
-                `
+                `,
 			}
 		]
 	},
@@ -69,7 +69,7 @@ export let categories: Category[] = [
                 I have worked alongside other software engineers to work on the Toggle Automation project where
                 <br>
                 I had to use various technologies to develop the Toggle Automation project.
-                `
+                `,
 			}
 		]
 	},
@@ -91,7 +91,7 @@ export let categories: Category[] = [
                 Vision AI used to recognise objects in an image.
                 <br>
                 I have used this for my Clash Royale Image Recognition project.
-                `
+                `,
 			},
 			{
 				icon_image: {
@@ -107,7 +107,7 @@ export let categories: Category[] = [
                 Tool used to refactor source code.
                 <br>
                 I have used OpenRewrite for the Toggle Automation project to handle toggle code.
-                `
+                `,
 			},
 			{
 				icon_image: {
@@ -123,7 +123,7 @@ export let categories: Category[] = [
                 Roblox Neural Network Library built in Lua.
                 <br>
                 I have used the library to develop a simulation with rock, paper, and scissors entities to view its behaviour when changing its destroy scores.
-                `
+                `,
 			},
 			{
 				icon_image: {
@@ -139,7 +139,7 @@ export let categories: Category[] = [
                 C++ Build System with a Package Manager.
                 <br>
                 A build system I'm currently using for all my C++ projects.
-                `
+                `,
 			},
 			{
 				icon_image: {
@@ -153,7 +153,7 @@ export let categories: Category[] = [
 				},
 				short_description: `
                 A web framework I'm currently using to develop this website.
-                `
+                `,
 			}
 		]
 	},
@@ -169,7 +169,7 @@ export let categories: Category[] = [
                 The project uses OpenRewrite, Jenkins, and Gradle to allow other software engineers to easily access the tool. 
                 <br>
                 It was built using Java and Groovy as it's primary programming language.
-                `
+                `,
 			},
 			{
 				icon_image: {
@@ -183,7 +183,7 @@ export let categories: Category[] = [
                 The dataset is used to train a YoloV8 model to recognise the entities on the screen.
                 <br>
                 The program uses multithreading to speed up the creation of images.
-                `
+                `,
 			},
 			{
 				icon_image: {
@@ -199,28 +199,7 @@ export let categories: Category[] = [
 				For this project, I am going to use the Season 18 Clash Royale battle dataset from Kaggle to train a model to suggest a deck based on the cards they have chosen.
 				<br>
 				`,
-				preview_section: `
-				<h5>Preprocessing</h5>
-				<p>
-					Before using the dataset, I had to preprocess the data to make it easier for the model to train on.
-					<br>
-					I removed the columns that I didn't need: Player tag, their ranking and the date of the battle.
-					<br>
-					After the first step of preprocessing, I reduced the headings from 75 to 36 headings. Here is a bar chart showing the number of cards used in the dataset:
-					<img
-						style="border: 2px solid black;"
-						src="graphs/bar_chart_1.png"
-						alt="First Bar Chart with unfiltered data"
-					/>
-					<br>
-					Since these are ladder matches, I removed the rows with cards that are under level 13 since that is not the max level and will introduce bias since some cards are alot weaker when underleveled.
-				</p>
-				<h5>Tools And Technologies</h5>
-				<ul>
-					<li>Python</li>
-					<li>Pandas</li>
-				</ul>
-				`
+				long_description_file: `markdown/clash_royale_deck_suggester.md`,
 			}
 		]
 	},
@@ -234,13 +213,13 @@ export let categories: Category[] = [
                 Using the <a href='#cr'>Clash Royale Image Dataset Generator</a>, I have generated 100,000 images of Clash Royale battles containing entities.
                 <br>
                 These images are used to train a YoloV8 model to recognise the entities on the screen.
-                `
+                `,
 			},
 			{
 				name: 'Season 18 Clash Royale Battle Dataset',
 				short_description: `
 				I am going to use the Season 18 Clash Royale Battle Dataset from Kaggle to train a model to suggest a deck based on the cards they have chosen.
-				`
+				`,
 			}
 		]
 	},
@@ -253,42 +232,42 @@ export let categories: Category[] = [
 					src: 'icons/lang/CPP.png',
 					alt: 'C Plus Plus Logo'
 				},
-				name: 'C++'
+				name: 'C++',
 			},
 			{
 				icon_image: {
 					src: 'icons/lang/Python.png',
 					alt: 'Python Logo'
 				},
-				name: 'Python'
+				name: 'Python',
 			},
 			{
 				icon_image: {
 					src: 'icons/lang/Java.png',
 					alt: 'Java Logo'
 				},
-				name: 'Java'
+				name: 'Java',
 			},
 			{
 				icon_image: {
 					src: 'icons/lang/Typescript.png',
 					alt: 'Typescript Logo'
 				},
-				name: 'Typescript'
+				name: 'Typescript',
 			},
 			{
 				icon_image: {
 					src: 'icons/lang/Rust.png',
 					alt: 'Rust Logo'
 				},
-				name: 'Rust'
+				name: 'Rust',
 			},
 			{
 				icon_image: {
 					src: 'icons/lang/Lua.png',
 					alt: 'Lua Logo'
 				},
-				name: 'Lua'
+				name: 'Lua',
 			}
 		]
 	},
@@ -300,19 +279,19 @@ export let categories: Category[] = [
 				name: "Google's STEP Internship",
 				short_description: `
                 Interviewed for Google's STEP internship where I did two difficult algorithm problems
-                `
+                `,
 			},
 			{
 				name: 'Google Algorithm Workshop',
 				short_description: `
                 Attended an algorithm workshop by Google where we practiced algorithm problems
-                `
+                `,
 			},
 			{
 				name: 'Google Summer Insights 2022',
 				short_description: `
                 Invited to attend in Google Summer Insights 2022 where I learned about Google's culture and career opportunities
-                `
+                `,
 			}
 		]
 	}
