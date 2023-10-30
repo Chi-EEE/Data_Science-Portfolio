@@ -10,9 +10,13 @@ This reduced the amount of columns from 75 to 36 headings and the size of the fi
 Here is a bar chart showing the number of cards used in the dataset:  
 <img src="graphs/bar_chart_1.png"><br>
 
-Since these are ladder matches, cards can be underleveled / overleveled and can lead to bias in the win percentage of the matches. Since some cards can be more powerful when overleveled against underleveled cards.
+Since these are ladder matches, cards can be underleveled / overleveled and can lead to bias in the win percentage of the matches.  
+Since some cards can be more powerful when overleveled against underleveled cards.
 
-I removed the matches which all the card levels didn't match to reduce this bias.
+I removed the matches which all the card levels didn't match to reduce this bias.  
+This reduced the amount of cards from a max of 1e6 to 400,000 as seen in this bar chart:
+
+<img src="graphs/bar_chart_2.png"><br>
 
 ##### Tools And Technologies
 
