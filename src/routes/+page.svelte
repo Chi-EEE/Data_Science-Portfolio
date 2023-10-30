@@ -119,7 +119,8 @@
 
 <section style="display: flex; flex-direction: row;">
   <div style="width: 50%;" id="main">
-    <h1>Chi Huu Huynh</h1>
+	<img style="width: 200px;" src="me.png" alt="Picture of Chi Huu Huynh" />
+	<h1>Chi Huu Huynh</h1>
     <sub>Software Developer</sub>
     <h3 id="table_of_contents">Table of Contents:</h3>
     <ul>
