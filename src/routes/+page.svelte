@@ -119,10 +119,10 @@
 
 <section style="display: flex; flex-direction: row;">
   <div style="width: 50%;" id="main">
-	<img style="width: 200px;" src="me.png" alt="Picture of Chi Huu Huynh" />
-	<h1>Chi Huu Huynh</h1>
+    <img style="width: 200px;" src="me.png" alt="Picture of Chi Huu Huynh" />
+    <h1>Chi Huu Huynh</h1>
     <sub>Software Developer</sub>
-    <h3 id="table_of_contents">Table of Contents:</h3>
+    <h2 id="table_of_contents">Table of Contents:</h2>
     <ul>
       {#each categories as category}
         <li style="margin-top: 5px; margin-bottom: 5px;">
@@ -135,18 +135,19 @@
     <h2>Contact</h2>
     <ul style="text-align: right; list-style-position: inside;">
       <li style="margin-top: 5px;">
-        Email: <a href="mailto:chi.h.linkedin@gmail.com"
+        Email: <a target="_blank" href="mailto:chi.h.linkedin@gmail.com"
           >chi.h.linkedin@gmail.com</a
         >
       </li>
       <li style="margin-top: 5px;">
         LinkedIn: <a
+          target="_blank"
           href="https://www.linkedin.com/in/chi-huu-huynh-a5b315206/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BS4r6%2BEmtQKyoMSJF%2BryGhg%3D%3D"
           >chi-huu-huynh</a
         >
       </li>
       <li style="margin-top: 5px;">
-        Github: <a href="https://github.com/Chi-EEE">Chi-EEE</a>
+        Github: <a target="_blank" href="https://github.com/Chi-EEE">Chi-EEE</a>
       </li>
     </ul>
   </div>
@@ -157,5 +158,7 @@
 {/each}
 <hr />
 <footer>
-  This website was made using <a href="https://svelte.dev/">Svelte</a>
+  This website was made using <a target="_blank" href="https://svelte.dev/"
+    >Svelte</a
+  >
 </footer>

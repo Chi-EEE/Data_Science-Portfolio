@@ -21,6 +21,7 @@
     <a
       style="padding-top: 10px; margin:auto; display:flex; align-items:center;"
       href={item.link.href}
+      target="_blank"
     >
       {#if item.link.image_src}
         <img
