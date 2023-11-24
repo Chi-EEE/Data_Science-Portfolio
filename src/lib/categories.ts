@@ -240,6 +240,10 @@ I am using the Season 18 Clash Royale Battle Dataset from Kaggle to train a mode
 					alt: 'C Plus Plus Logo'
 				},
 				name: 'C++',
+				link: {
+					name: 'C++ W3Schools',
+					href: 'https://www.w3schools.com/cpp/'
+				},
 			},
 			{
 				icon_image: {
@@ -247,6 +251,10 @@ I am using the Season 18 Clash Royale Battle Dataset from Kaggle to train a mode
 					alt: 'Python Logo'
 				},
 				name: 'Python',
+				link: {
+					name: 'Python Website',
+					href: 'https://www.python.org/'
+				},
 			},
 			{
 				icon_image: {
@@ -254,6 +262,10 @@ I am using the Season 18 Clash Royale Battle Dataset from Kaggle to train a mode
 					alt: 'Java Logo'
 				},
 				name: 'Java',
+				link: {
+					name: 'Java W3Schools',
+					href: 'https://www.w3schools.com/java/'
+				},
 			},
 			{
 				icon_image: {
@@ -261,6 +273,10 @@ I am using the Season 18 Clash Royale Battle Dataset from Kaggle to train a mode
 					alt: 'Typescript Logo'
 				},
 				name: 'Typescript',
+				link: {
+					name: 'Typescript Website',
+					href: 'https://www.typescriptlang.org/'
+				},
 			},
 			{
 				icon_image: {
@@ -268,6 +284,10 @@ I am using the Season 18 Clash Royale Battle Dataset from Kaggle to train a mode
 					alt: 'Rust Logo'
 				},
 				name: 'Rust',
+				link: {
+					name: 'Rust Website',
+					href: 'https://www.rust-lang.org/'
+				},
 			},
 			{
 				icon_image: {
@@ -275,6 +295,10 @@ I am using the Season 18 Clash Royale Battle Dataset from Kaggle to train a mode
 					alt: 'Lua Logo'
 				},
 				name: 'Lua',
+				link: {
+					name: 'Lua Website',
+					href: 'https://www.lua.org/'
+				},
 			}
 		]
 	},
