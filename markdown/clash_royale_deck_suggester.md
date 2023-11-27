@@ -20,7 +20,7 @@ The project is set up with python notebooks ordered from 1 to 5 so it will be ea
 
 Here are the graphs for the card distributions from **3.5-count_cards.ipynb** where can see which card is being used the most.
 
-<img src="graphs/large-pie-chart.png"><br>
+<img width="1200" src="graphs/large-pie-chart.png"><br>
 
 <img src="graphs/bar-chart.png"><br>
 
