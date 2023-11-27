@@ -175,7 +175,7 @@ It was built using Java and Groovy as it's primary programming language.
 					alt: 'Clash Royale Logo'
 				},
 				id: 'cr',
-				name: 'Clash Royale Image Dataset Generator',
+				name: 'Clash Royale Image Dataset Generator [PRIVATE]',
 				short_description: `
 I have made a C++ program which can generate a large image dataset of clash royale battles containing entities.
 
