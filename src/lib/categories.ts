@@ -227,7 +227,18 @@ These images are used to train a YoloV8 model to recognise the entities on the s
 				short_description: `
 I am using the Season 18 Clash Royale Battle Dataset from Kaggle to train a model to suggest a deck based on the cards they have chosen.
 				`,
-			}
+			},
+			{
+				name: 'Random Forests Notebook',
+				link: {
+					image_src: 'icons/other/Random_forests.png',
+					name: 'Notebook Link',
+					href: 'https://github.com/Chi-EEE/Data_Science-Project/blob/main/Notebooks/05.08-Random-Forests.ipynb',
+				},
+				short_description: `
+From my Data Science module, I had to use a provided notebook to learn about Random Forests. 
+				`,
+			},
 		]
 	},
 	{
