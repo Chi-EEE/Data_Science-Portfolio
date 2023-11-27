@@ -79,7 +79,7 @@ For my internship at Workday, I worked alongside other software engineers to dev
 The project uses OpenRewrite, Jenkins, and Gradle to allow other software engineers to easily access the tool. 
 
 It was built using Java and Groovy as it's primary programming language.
-                `},{icon_image:{src:"icons/other/ClashRoyale.png",alt:"Clash Royale Logo"},id:"cr",name:"Clash Royale Image Dataset Generator",short_description:`
+                `},{icon_image:{src:"icons/other/ClashRoyale.png",alt:"Clash Royale Logo"},id:"cr",name:"Clash Royale Image Dataset Generator [PRIVATE]",short_description:`
 I have made a C++ program which can generate a large image dataset of clash royale battles containing entities.
 
 The dataset is used to train a YoloV8 model to recognise the entities on the screen.
