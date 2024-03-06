@@ -201,6 +201,31 @@ Dataset Link: [Clash Royale Season 18](#cr-dataset)
 For this project, I am going to use the Season 18 Clash Royale battle dataset from Kaggle to train a model to suggest a deck based on the cards they have chosen.
 				`,
 				markdown_file: `markdown/clash_royale_deck_suggester.md`,
+			},
+			{
+				name: 'Series of Data Science Notebooks',
+				link: {
+					image_src: 'icons/other/Github-Light.png',
+					name: 'Data Science Project',
+					href: 'https://github.com/Chi-EEE/Data_Science-Project/tree/main/Notebooks'
+				},
+				short_description: `
+				I have created a series of notebooks to learn about Data Science.
+				
+				The list of notebooks are:
+				- [Support Vector Machines](https://github.com/Chi-EEE/Data_Science-Project/tree/main/Notebooks/Support-Vector-Machine)
+				- [Naive Bayes](https://github.com/Chi-EEE/Data_Science-Project/tree/main/Notebooks/Na%C3%AFve-Bayes-Classifier)
+				- [K-Nearest Neighbours](https://github.com/Chi-EEE/Data_Science-Project/tree/main/Notebooks/K-Nearest-Neighbour)
+				- [K-Means](https://github.com/Chi-EEE/Data_Science-Project/tree/main/Notebooks/K-Means)
+				- [K-Nearest Neighbours Redone](https://github.com/Chi-EEE/Data_Science-Project/tree/main/Notebooks/K-Nearest-Neighbour-Two)
+				
+				I have also made a minialistic webapp for [K-Nearest Neighbours](https://github.com/Chi-EEE/Data_Science-Project/tree/main/Notebooks/K-Nearest-Neighbour/deployment).  
+				To run the webapp, run the following commands:
+				\`\`\`bash
+				pip install flask pandas
+				flask run
+				\`\`\`
+				`,
 			}
 		]
 	},
