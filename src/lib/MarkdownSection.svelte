@@ -1,11 +1,17 @@
 <script lang="ts">
   import { onMount } from "svelte";
+  import { marked, TokensList } from "marked";
   import SvelteMarkdown from "svelte-markdown";
   export let markdown_file: string;
   let show = false;
-  let source = "";
+  let source: TokensList;
   onMount(async () => {
-    source = await fetch(markdown_file).then((response) => response.text());
+    source = marked.lexer(
+      await fetch(markdown_file).then((response) => response.text())
+    );
+    marked.walkTokens(source, (token) => {
+      console.log(token);
+    });
   });
 </script>
 
