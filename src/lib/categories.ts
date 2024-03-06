@@ -246,7 +246,7 @@ I am using the Season 18 Clash Royale Battle Dataset from Kaggle to train a mode
 				link: {
 					image_src: 'icons/other/Kaggle.png',
 					name: 'Dataset Link',
-					href: 'https://www.kaggle.com/mjamilmoughal/apple-quality-dataset',
+					href: 'htps://www.kaggle.com/datasets/nelgiriyewithana/apple-tquality',
 				},
 				short_description: `
 I have used the Apple Quality Dataset as part of the [series of Data Science Notebooks](#data-science-notebooks), it is used in the K-Means and K-Nearest Neighbours notebooks.
