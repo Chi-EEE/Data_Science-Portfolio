@@ -244,6 +244,7 @@ I am using the Season 18 Clash Royale Battle Dataset from Kaggle to train a mode
 			{
 				name: 'Apple Quality Dataset',
 				link: {
+					image_src: 'icons/other/Kaggle.png',
 					name: 'Dataset Link',
 					href: 'https://www.kaggle.com/mjamilmoughal/apple-quality-dataset',
 				},
@@ -254,6 +255,7 @@ I have used the Apple Quality Dataset as part of the [series of Data Science Not
 			{
 				name: 'Heart Health Dataset',
 				link: {
+					image_src: 'icons/other/Kaggle.png',
 					name: 'Dataset Link',
 					href: 'https://www.kaggle.com/datasets/mahad049/heart-health-stats-dataset',
 				},
@@ -264,6 +266,7 @@ I have used the Heart Health Dataset as part of the [series of Data Science Note
 			{
 				name: 'Fruits Dataset',
 				link: {
+					image_src: 'icons/other/Kaggle.png',
 					name: 'Dataset Link',
 					href: 'https://www.kaggle.com/datasets/alihasnainch/fruits-dataset-for-classification',
 				},
@@ -274,6 +277,7 @@ I have used the Fruits Dataset as part of the [series of Data Science Notebooks]
 			{
 				name: 'Students Dropout Dataset',
 				link: {
+					image_src: 'icons/other/Kaggle.png',
 					name: 'Dataset Link',
 					href: 'https://www.kaggle.com/datasets/missionjee/students-dropout-and-academic-success-dataset',
 				},
