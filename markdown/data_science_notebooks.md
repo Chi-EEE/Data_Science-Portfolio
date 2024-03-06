@@ -7,7 +7,7 @@ The list of notebooks are:
 - [K-Nearest Neighbours Redone](https://github.com/Chi-EEE/Data_Science-Project/tree/main/Notebooks/K-Nearest-Neighbour-Two)
 
 I have also made a minimalist webapp for [K-Nearest Neighbours](https://github.com/Chi-EEE/Data_Science-Project/tree/main/Notebooks/K-Nearest-Neighbour/deployment).  
-To run the webapp, run the following commands:
+To run the webapp, run the following commands in the deployment directory:
 ```bash
 pip install flask pandas
 flask run
