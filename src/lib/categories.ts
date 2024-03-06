@@ -203,6 +203,7 @@ For this project, I am going to use the Season 18 Clash Royale battle dataset fr
 				markdown_file: `markdown/clash_royale_deck_suggester.md`,
 			},
 			{
+				id: 'data-science-notebooks',
 				name: 'Series of Data Science Notebooks',
 				link: {
 					image_src: 'icons/other/Github-Light.png',
@@ -210,7 +211,7 @@ For this project, I am going to use the Season 18 Clash Royale battle dataset fr
 					href: 'https://github.com/Chi-EEE/Data_Science-Project/tree/main/Notebooks'
 				},
 				short_description: `
-				I have created a series of notebooks to learn about Data Science.
+I have created a series of notebooks to learn about Data Science.
 				`,
 				markdown_file: `markdown/data_science_notebooks.md`,
 			}
@@ -241,16 +242,45 @@ I am using the Season 18 Clash Royale Battle Dataset from Kaggle to train a mode
 				`,
 			},
 			{
-				name: 'Random Forests Notebook',
+				name: 'Apple Quality Dataset',
 				link: {
-					image_src: 'icons/other/Random_forests.png',
-					name: 'Notebook Link',
-					href: 'https://github.com/Chi-EEE/Data_Science-Project/blob/main/Notebooks/05.08-Random-Forests.ipynb',
+					name: 'Dataset Link',
+					href: 'https://www.kaggle.com/mjamilmoughal/apple-quality-dataset',
 				},
 				short_description: `
-From my Data Science module, I had to use a provided notebook to learn about Random Forests. 
-				`,
+I have used the Apple Quality Dataset as part of the [series of Data Science Notebooks](#data-science-notebooks), it is used in the K-Means and K-Nearest Neighbours notebooks.
+				`
 			},
+			{
+				name: 'Heart Health Dataset',
+				link: {
+					name: 'Dataset Link',
+					href: 'https://www.kaggle.com/datasets/mahad049/heart-health-stats-dataset',
+				},
+				short_description: `
+I have used the Heart Health Dataset as part of the [series of Data Science Notebooks](#data-science-notebooks), it is used in the K-Nearest Neighbours notebook.
+				`
+			},
+			{
+				name: 'Fruits Dataset',
+				link: {
+					name: 'Dataset Link',
+					href: 'https://www.kaggle.com/datasets/alihasnainch/fruits-dataset-for-classification',
+				},
+				short_description: `
+I have used the Fruits Dataset as part of the [series of Data Science Notebooks](#data-science-notebooks), it is used in the Support Vector Machine notebook.
+				`
+			},
+			{
+				name: 'Students Dropout Dataset',
+				link: {
+					name: 'Dataset Link',
+					href: 'https://www.kaggle.com/datasets/missionjee/students-dropout-and-academic-success-dataset',
+				},
+				short_description: `
+I have used the Students Dropout Dataset as part of the [series of Data Science Notebooks](#data-science-notebooks), it is used in the Naive Bayesian Classifiers notebook.
+				`
+			}
 		]
 	},
 	{
