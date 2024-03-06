@@ -97,7 +97,7 @@ Using the [Clash Royale Image Dataset Generator](#cr), I have generated 100,000 
 These images are used to train a YoloV8 model to recognise the entities on the screen.
                 `},{name:"Season 18 Clash Royale Battle Dataset",link:{image_src:"icons/other/Kaggle.png",name:"Dataset Link",href:"https://www.kaggle.com/datasets/bwandowando/clash-royale-season-18-dec-0320-dataset/"},short_description:`
 I am using the Season 18 Clash Royale Battle Dataset from Kaggle to train a model to suggest a deck based on the cards they have chosen.
-				`},{name:"Apple Quality Dataset",link:{image_src:"icons/other/Kaggle.png",name:"Dataset Link",href:"https://www.kaggle.com/mjamilmoughal/apple-quality-dataset"},short_description:`
+				`},{name:"Apple Quality Dataset",link:{image_src:"icons/other/Kaggle.png",name:"Dataset Link",href:"htps://www.kaggle.com/datasets/nelgiriyewithana/apple-tquality"},short_description:`
 I have used the Apple Quality Dataset as part of the [series of Data Science Notebooks](#data-science-notebooks), it is used in the K-Means and K-Nearest Neighbours notebooks.
 				`},{name:"Heart Health Dataset",link:{image_src:"icons/other/Kaggle.png",name:"Dataset Link",href:"https://www.kaggle.com/datasets/mahad049/heart-health-stats-dataset"},short_description:`
 I have used the Heart Health Dataset as part of the [series of Data Science Notebooks](#data-science-notebooks), it is used in the K-Nearest Neighbours notebook.
