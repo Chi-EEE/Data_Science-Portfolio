@@ -1,11 +1,10 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import SvelteMarkdown from "svelte-markdown";
-  export let markdown_file: string;
+  export let html_file: string;
   let show = false;
   let source = "";
   onMount(async () => {
-    source = await fetch(markdown_file).then((response) => response.text());
+    source = await fetch(html_file).then((response) => response.text());
   });
 </script>
 
@@ -15,5 +14,5 @@
   }}>{!show ? "Click here to preview long description:" : "Hide:"}</button
 >
 {#if show}
-  <SvelteMarkdown {source} />
+  {@html source}
 {/if}

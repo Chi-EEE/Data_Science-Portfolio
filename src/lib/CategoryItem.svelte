@@ -2,6 +2,7 @@
   import SvelteMarkdown from "svelte-markdown";
   import type { Item } from "./categories";
   import MarkdownSection from "./MarkdownSection.svelte";
+  import HtmlSection from "./HTMLSection.svelte";
 
   export let item: Item;
 </script>
@@ -41,5 +42,8 @@
   {/if}
   {#if item.markdown_file}
     <MarkdownSection markdown_file={item.markdown_file} />
+  {/if}
+  {#if item.html_file}
+    <HtmlSection html_file={item.html_file} />
   {/if}
 </li>

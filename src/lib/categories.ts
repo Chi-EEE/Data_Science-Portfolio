@@ -13,6 +13,7 @@ export interface Item {
 	link?: ImageLink;
 	short_description?: string;
 	markdown_file?: string;
+	html_file?: string;
 }
 
 export interface Image {
@@ -213,7 +214,7 @@ For this project, I am going to use the Season 18 Clash Royale battle dataset fr
 				short_description: `
 I have created a series of notebooks to learn about Data Science.
 				`,
-				markdown_file: `markdown/data_science_notebooks.md`,
+				markdown_file: `html/data_science_notebooks.html`,
 			}
 		]
 	},
