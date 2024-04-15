@@ -285,6 +285,17 @@ I have used the Fruits Dataset as part of the [series of Data Science Notebooks]
 				short_description: `
 I have used the Students Dropout Dataset as part of the [series of Data Science Notebooks](#data-science-notebooks), it is used in the Naive Bayesian Classifiers notebook.
 				`
+			},
+			{
+				name: 'Digits Recognition Dataset',
+				link: {
+					image_src: 'icons/other/Kaggle.png',
+					name: 'Dataset Link',
+					href: 'https://www.kaggle.com/datasets/hojjatk/mnist-dataset',
+				},
+				short_description: `
+I have used the Digits Recognition Dataset as part of the [series of Data Science Notebooks](#data-science-notebooks), it is used in both the MLP and CNN notebook.
+				`
 			}
 		]
 	},
